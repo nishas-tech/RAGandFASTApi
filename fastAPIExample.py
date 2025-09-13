@@ -12,7 +12,6 @@ class Todo(BaseModel):
 
 items=[]
 
-
 @app.get("/")
 def root():
     return {"message":"Hello World from FastAPI"}
